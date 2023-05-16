@@ -129,6 +129,7 @@ def _log_msg(*args, **kwargs):
     if klass:
         tmp.append(color_str(klass, 'red' if error else 'blue'))
 
+    func = func+':'+str(line)   #Todo JN added "log line number"
     tmp.append(color_str(func, 'red' if error else 'green'))
     kwargs['system'] = '%s #%s' % ('.'.join(tmp), log_level_map[level])
 
