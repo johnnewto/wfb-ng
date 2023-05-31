@@ -9,7 +9,7 @@ DOCKER_SRC_IMAGE ?= "p2ptech/cross-build:2023-02-21-raspios-bullseye-armhf-lite"
 export VERSION COMMIT SOURCE_DATE_EPOCH
 
 _LDFLAGS := $(LDFLAGS) -lrt -lpcap -lsodium
-_CFLAGS := $(CFLAGS) -Wall -O2 -DWFB_VERSION='"$(VERSION)-$(shell /bin/bash -c '_tmp=$(COMMIT); echo $${_tmp::8}')"'
+_CFLAGS := $(CFLAGS) -g -Wall -Og -DWFB_VERSION='"$(VERSION)-$(shell /bin/bash -c '_tmp=$(COMMIT); echo $${_tmp::8}')"'
 
 all: all_bin gs.key test
 
@@ -64,3 +64,9 @@ deb_docker:  /opt/qemu/bin
 	TAG="wfb-ng:build-`date +%s`"; docker build -t $$TAG docker --build-arg SRC_IMAGE=$(DOCKER_SRC_IMAGE)  && \
 	docker run -i --rm -v $(PWD):/build $$TAG bash -c "trap 'chown -R --reference=. .' EXIT; export VERSION=$(VERSION) COMMIT=$(COMMIT) SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH) && cd /build && make clean && make test && make deb"
 	docker ps -a -f 'status=exited' --format '{{ .ID }} {{ .Image }}' | grep wfb-ng:build | tail -n+11 | while read c i ; do docker rm $$c && docker rmi $$i; done
+
+#run_wfb_rx-gs:
+#	./wfb_rx -p 0 -c 127.0.0.1 -u 5600 -K ./gs.key -i 7669206 wlx00c0caad63f0
+#
+run_wfb_rx-gs: wfb_rx
+	@./wfb_rx -p 0 -c 127.0.0.1 -u 5600 -K ./gs.key -i 7669206 wlx00c0caad63f0

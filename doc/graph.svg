@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1438pt" height="1229pt" viewBox="0.00 0.00 1438.00 1229.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1225.4)">
+<title>wfb_ng</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1225.4 1434,-1225.4 1434,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_uav</title>
+<polygon fill="none" stroke="#000000" points="8,-8 8,-1213.4 358,-1213.4 358,-8 8,-8"/>
+<text text-anchor="middle" x="183" y="-1196.8" font-family="Times,serif" font-size="14.00" fill="#000000">UAV</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_pizero</title>
+<polygon fill="none" stroke="#0000ff" points="146,-687.8 146,-1063.8 234,-1063.8 234,-687.8 146,-687.8"/>
+<text text-anchor="middle" x="190" y="-1047.2" font-family="Times,serif" font-size="14.00" fill="#000000">PI Zero</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_companion</title>
+<polygon fill="none" stroke="#00ff00" points="16,-251.8 16,-582.2 218,-582.2 218,-251.8 16,-251.8"/>
+<text text-anchor="middle" x="117" y="-565.6" font-family="Times,serif" font-size="14.00" fill="#000000">NanoPI NEO2</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_GS</title>
+<polygon fill="none" stroke="#000000" points="366,-243.8 366,-1213.4 1422,-1213.4 1422,-243.8 366,-243.8"/>
+<text text-anchor="middle" x="894" y="-1196.8" font-family="Times,serif" font-size="14.00" fill="#000000">Ground station</text>
+</g>
+<g id="clust10" class="cluster">
+<title>cluster_video_goggles</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="1130,-251.8 1130,-615 1341,-615 1341,-251.8 1130,-251.8"/>
+<text text-anchor="middle" x="1235.5" y="-598.4" font-family="Times,serif" font-size="14.00" fill="#000000">FPV goggles</text>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_fpv_pi_zero</title>
+<polygon fill="none" stroke="#0000ff" points="1138,-505.4 1138,-582.2 1333,-582.2 1333,-505.4 1138,-505.4"/>
+<text text-anchor="middle" x="1235.5" y="-565.6" font-family="Times,serif" font-size="14.00" fill="#000000">PI Zero</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_rx1</title>
+<polygon fill="none" stroke="#ff0000" points="854,-837.4 854,-914.2 1130,-914.2 1130,-837.4 854,-837.4"/>
+<text text-anchor="middle" x="992" y="-897.6" font-family="Times,serif" font-size="14.00" fill="#000000">Host RX1</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_rx2</title>
+<polygon fill="none" stroke="#ff0000" points="570,-837.4 570,-914.2 846,-914.2 846,-837.4 570,-837.4"/>
+<text text-anchor="middle" x="708" y="-897.6" font-family="Times,serif" font-size="14.00" fill="#000000">Host RX2</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_rx3</title>
+<polygon fill="none" stroke="#ff0000" points="1138,-837.4 1138,-914.2 1414,-914.2 1414,-837.4 1138,-837.4"/>
+<text text-anchor="middle" x="1276" y="-897.6" font-family="Times,serif" font-size="14.00" fill="#000000">Host RX3</text>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_rx4</title>
+<polygon fill="none" stroke="#ff0000" points="374,-837.4 374,-914.2 562,-914.2 562,-837.4 374,-837.4"/>
+<text text-anchor="middle" x="468" y="-897.6" font-family="Times,serif" font-size="14.00" fill="#000000">Host RX4</text>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_laptop</title>
+<polygon fill="none" stroke="#00ff00" points="893,-687.8 893,-764.6 1265,-764.6 1265,-687.8 893,-687.8"/>
+<text text-anchor="middle" x="1079" y="-748" font-family="Times,serif" font-size="14.00" fill="#000000">Linux laptop</text>
+</g>
+<!-- camera -->
+<g id="node1" class="node">
+<title>camera</title>
+<ellipse fill="none" stroke="#000000" cx="190" cy="-1162.6" rx="38.8208" ry="18"/>
+<text text-anchor="middle" x="190" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">camera</text>
+</g>
+<!-- raspivid -->
+<g id="node2" class="node">
+<title>raspivid</title>
+<polygon fill="none" stroke="#000000" points="220.6011,-1031 159.3989,-1031 159.3989,-995 220.6011,-995 220.6011,-1031"/>
+<text text-anchor="middle" x="190" y="-1008.8" font-family="Times,serif" font-size="14.00" fill="#000000">raspivid</text>
+</g>
+<!-- camera&#45;&gt;raspivid -->
+<g id="edge2" class="edge">
+<title>camera-&gt;raspivid</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M190,-1144.5547C190,-1144.5547 190,-1041.1093 190,-1041.1093"/>
+<polygon fill="#000000" stroke="#000000" points="193.5001,-1041.1092 190,-1031.1093 186.5001,-1041.1093 193.5001,-1041.1092"/>
+<text text-anchor="middle" x="212.3622" y="-1095" font-family="Times,serif" font-size="14.00" fill="#000000">CSI bus</text>
+</g>
+<!-- gstreamer -->
+<g id="node3" class="node">
+<title>gstreamer</title>
+<polygon fill="none" stroke="#000000" points="225.6911,-731.8 154.3089,-731.8 154.3089,-695.8 225.6911,-695.8 225.6911,-731.8"/>
+<text text-anchor="middle" x="190" y="-709.6" font-family="Times,serif" font-size="14.00" fill="#000000">gstreamer</text>
+</g>
+<!-- raspivid&#45;&gt;gstreamer -->
+<g id="edge1" class="edge">
+<title>raspivid-&gt;gstreamer</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M190,-994.7341C190,-994.7341 190,-741.8268 190,-741.8268"/>
+<polygon fill="#000000" stroke="#000000" points="193.5001,-741.8268 190,-731.8268 186.5001,-741.8269 193.5001,-741.8268"/>
+<text text-anchor="middle" x="202.0526" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">pipe</text>
+</g>
+<!-- wfb_tx_1 -->
+<g id="node6" class="node">
+<title>wfb_tx_1</title>
+<polygon fill="none" stroke="#000000" points="209.6586,-549.4 140.3414,-549.4 140.3414,-513.4 209.6586,-513.4 209.6586,-549.4"/>
+<text text-anchor="middle" x="175" y="-527.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_tx_1</text>
+</g>
+<!-- gstreamer&#45;&gt;wfb_tx_1 -->
+<g id="edge4" class="edge">
+<title>gstreamer-&gt;wfb_tx_1</title>
+<path fill="none" stroke="#000000" d="M191.3541,-687.8009C191.3541,-669.682 191.3541,-624.0479 191.3541,-592.395"/>
+<polygon fill="#000000" stroke="#000000" points="194.8542,-592.1963 191.3541,-582.1963 187.8542,-592.1963 194.8542,-592.1963"/>
+<text text-anchor="middle" x="174.6129" y="-646.2" font-family="Times,serif" font-size="14.00" fill="#000000">USB</text>
+</g>
+<!-- gstreamer&#45;&gt;wfb_tx_1 -->
+<g id="edge6" class="edge">
+<title>gstreamer-&gt;wfb_tx_1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M172.8794,-695.6439C172.8794,-695.6439 172.8794,-559.4826 172.8794,-559.4826"/>
+<polygon fill="#000000" stroke="#000000" points="176.3795,-559.4826 172.8794,-549.4826 169.3795,-559.4827 176.3795,-559.4826"/>
+<text text-anchor="middle" x="253.7479" y="-646.2" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 5060</text>
+</g>
+<!-- pixhawk -->
+<g id="node4" class="node">
+<title>pixhawk</title>
+<ellipse fill="none" stroke="#000000" cx="73" cy="-713.8" rx="44.0852" ry="18"/>
+<text text-anchor="middle" x="73" y="-709.6" font-family="Times,serif" font-size="14.00" fill="#000000">pixhawk</text>
+</g>
+<!-- mavproxy1 -->
+<g id="node8" class="node">
+<title>mavproxy1</title>
+<polygon fill="none" stroke="#000000" points="122.313,-549.4 23.687,-549.4 23.687,-513.4 122.313,-513.4 122.313,-549.4"/>
+<text text-anchor="middle" x="73" y="-527.2" font-family="Times,serif" font-size="14.00" fill="#000000">mavlink router</text>
+</g>
+<!-- pixhawk&#45;&gt;mavproxy1 -->
+<g id="edge5" class="edge">
+<title>pixhawk-&gt;mavproxy1</title>
+<path fill="none" stroke="#000000" d="M73,-695.6439C73,-695.6439 73,-559.4826 73,-559.4826"/>
+<polygon fill="#000000" stroke="#000000" points="76.5001,-559.4826 73,-549.4826 69.5001,-559.4827 76.5001,-559.4826"/>
+<text text-anchor="middle" x="92.0512" y="-646.2" font-family="Times,serif" font-size="14.00" fill="#000000">UART</text>
+</g>
+<!-- sik_radio1 -->
+<g id="node5" class="node">
+<title>sik_radio1</title>
+<ellipse fill="none" stroke="#000000" cx="278" cy="-404.6" rx="51.5658" ry="18"/>
+<text text-anchor="middle" x="278" y="-400.4" font-family="Times,serif" font-size="14.00" fill="#000000">3DR radio</text>
+</g>
+<!-- wifi_tx -->
+<g id="node9" class="node">
+<title>wifi_tx</title>
+<ellipse fill="none" stroke="#000000" cx="178" cy="-145" rx="38.8613" ry="18"/>
+<text text-anchor="middle" x="178" y="-140.8" font-family="Times,serif" font-size="14.00" fill="#000000">wifi_tx</text>
+</g>
+<!-- wfb_tx_1&#45;&gt;wifi_tx -->
+<g id="edge9" class="edge">
+<title>wfb_tx_1-&gt;wifi_tx</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M179.8289,-513.2814C179.8289,-513.2814 179.8289,-173.0794 179.8289,-173.0794"/>
+<polygon fill="#000000" stroke="#000000" points="183.329,-173.0794 179.8289,-163.0794 176.329,-173.0794 183.329,-173.0794"/>
+<text text-anchor="middle" x="315.4085" y="-337" font-family="Times,serif" font-size="14.00" fill="#000000">radio_port 1</text>
+</g>
+<!-- wfb_tx_2 -->
+<g id="node7" class="node">
+<title>wfb_tx_2</title>
+<polygon fill="none" stroke="#000000" points="149.6586,-295.8 80.3414,-295.8 80.3414,-259.8 149.6586,-259.8 149.6586,-295.8"/>
+<text text-anchor="middle" x="115" y="-273.6" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_tx_2</text>
+</g>
+<!-- wfb_tx_2&#45;&gt;wifi_tx -->
+<g id="edge10" class="edge">
+<title>wfb_tx_2-&gt;wifi_tx</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M146.2424,-259.6132C146.2424,-259.6132 146.2424,-165.6518 146.2424,-165.6518"/>
+<polygon fill="#000000" stroke="#000000" points="149.7425,-165.6518 146.2424,-155.6518 142.7425,-165.6519 149.7425,-165.6518"/>
+<text text-anchor="middle" x="212.4085" y="-204.2" font-family="Times,serif" font-size="14.00" fill="#000000">radio_port 2</text>
+</g>
+<!-- wfb_tx_2&#45;&gt;wifi_tx -->
+<g id="edge11" class="edge">
+<title>wfb_tx_2-&gt;wifi_tx</title>
+<path fill="none" stroke="#000000" d="M142.6559,-251.8049C142.6559,-228.7794 142.6559,-162.7573 142.6559,-162.7573"/>
+<polygon fill="#000000" stroke="#000000" points="146.156,-162.7572 142.6559,-152.7573 139.156,-162.7573 146.156,-162.7572"/>
+<text text-anchor="middle" x="128.6129" y="-204.2" font-family="Times,serif" font-size="14.00" fill="#000000">USB</text>
+</g>
+<!-- mavproxy1&#45;&gt;sik_radio1 -->
+<g id="edge8" class="edge">
+<title>mavproxy1-&gt;sik_radio1</title>
+<path fill="none" stroke="#000000" d="M108.328,-513.1467C108.328,-477.9194 108.328,-404 108.328,-404 108.328,-404 216.1709,-404 216.1709,-404"/>
+<polygon fill="#000000" stroke="#000000" points="216.1709,-407.5001 226.1709,-404 216.1708,-400.5001 216.1709,-407.5001"/>
+<text text-anchor="middle" x="213.0512" y="-463.8" font-family="Times,serif" font-size="14.00" fill="#000000">UART</text>
+</g>
+<!-- mavproxy1&#45;&gt;wfb_tx_2 -->
+<g id="edge7" class="edge">
+<title>mavproxy1-&gt;wfb_tx_2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M94.2495,-513.1617C94.2495,-513.1617 94.2495,-305.873 94.2495,-305.873"/>
+<polygon fill="#000000" stroke="#000000" points="97.7496,-305.873 94.2495,-295.873 90.7496,-305.8731 97.7496,-305.873"/>
+<text text-anchor="middle" x="134.2479" y="-400.4" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 14550</text>
+</g>
+<!-- ant_tx -->
+<g id="node10" class="node">
+<title>ant_tx</title>
+<ellipse fill="none" stroke="#000000" cx="178" cy="-34" rx="35.3528" ry="18"/>
+<text text-anchor="middle" x="178" y="-29.8" font-family="Times,serif" font-size="14.00" fill="#000000">ant_tx</text>
+</g>
+<!-- wifi_tx&#45;&gt;ant_tx -->
+<g id="edge3" class="edge">
+<title>wifi_tx-&gt;ant_tx</title>
+<path fill="none" stroke="#000000" d="M178,-126.6706C178,-126.6706 178,-62.3566 178,-62.3566"/>
+<polygon fill="#000000" stroke="#000000" points="181.5001,-62.3566 178,-52.3566 174.5001,-62.3567 181.5001,-62.3566"/>
+</g>
+<!-- ant_1_1 -->
+<g id="node11" class="node">
+<title>ant_1_1</title>
+<ellipse fill="none" stroke="#000000" cx="955" cy="-1162.6" rx="42.299" ry="18"/>
+<text text-anchor="middle" x="955" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">ant_1_1</text>
+</g>
+<!-- wifi_rx1 -->
+<g id="node17" class="node">
+<title>wifi_rx1</title>
+<ellipse fill="none" stroke="#000000" cx="1008" cy="-1013" rx="44.0814" ry="18"/>
+<text text-anchor="middle" x="1008" y="-1008.8" font-family="Times,serif" font-size="14.00" fill="#000000">wifi_rx1</text>
+</g>
+<!-- ant_1_1&#45;&gt;wifi_rx1 -->
+<g id="edge12" class="edge">
+<title>ant_1_1-&gt;wifi_rx1</title>
+<path fill="none" stroke="#000000" d="M980.4295,-1147.9833C980.4295,-1147.9833 980.4295,-1037.4557 980.4295,-1037.4557"/>
+<polygon fill="#000000" stroke="#000000" points="983.9296,-1037.4557 980.4295,-1027.4557 976.9296,-1037.4558 983.9296,-1037.4557"/>
+</g>
+<!-- ant_1_2 -->
+<g id="node12" class="node">
+<title>ant_1_2</title>
+<ellipse fill="none" stroke="#000000" cx="1057" cy="-1162.6" rx="42.299" ry="18"/>
+<text text-anchor="middle" x="1057" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">ant_1_2</text>
+</g>
+<!-- ant_1_2&#45;&gt;wifi_rx1 -->
+<g id="edge13" class="edge">
+<title>ant_1_2-&gt;wifi_rx1</title>
+<path fill="none" stroke="#000000" d="M1033.5705,-1147.4323C1033.5705,-1147.4323 1033.5705,-1037.7644 1033.5705,-1037.7644"/>
+<polygon fill="#000000" stroke="#000000" points="1037.0706,-1037.7643 1033.5705,-1027.7644 1030.0706,-1037.7644 1037.0706,-1037.7643"/>
+</g>
+<!-- ant_2_1 -->
+<g id="node13" class="node">
+<title>ant_2_1</title>
+<ellipse fill="none" stroke="#000000" cx="695" cy="-1162.6" rx="42.299" ry="18"/>
+<text text-anchor="middle" x="695" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">ant_2_1</text>
+</g>
+<!-- wifi_rx2 -->
+<g id="node18" class="node">
+<title>wifi_rx2</title>
+<ellipse fill="none" stroke="#000000" cx="746" cy="-1013" rx="44.0814" ry="18"/>
+<text text-anchor="middle" x="746" y="-1008.8" font-family="Times,serif" font-size="14.00" fill="#000000">wifi_rx2</text>
+</g>
+<!-- ant_2_1&#45;&gt;wifi_rx2 -->
+<g id="edge14" class="edge">
+<title>ant_2_1-&gt;wifi_rx2</title>
+<path fill="none" stroke="#000000" d="M719.4295,-1147.7089C719.4295,-1147.7089 719.4295,-1037.8309 719.4295,-1037.8309"/>
+<polygon fill="#000000" stroke="#000000" points="722.9296,-1037.8309 719.4295,-1027.8309 715.9296,-1037.831 722.9296,-1037.8309"/>
+</g>
+<!-- ant_2_2 -->
+<g id="node14" class="node">
+<title>ant_2_2</title>
+<ellipse fill="none" stroke="#000000" cx="797" cy="-1162.6" rx="42.299" ry="18"/>
+<text text-anchor="middle" x="797" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">ant_2_2</text>
+</g>
+<!-- ant_2_2&#45;&gt;wifi_rx2 -->
+<g id="edge15" class="edge">
+<title>ant_2_2-&gt;wifi_rx2</title>
+<path fill="none" stroke="#000000" d="M772.5705,-1147.7089C772.5705,-1147.7089 772.5705,-1037.8309 772.5705,-1037.8309"/>
+<polygon fill="#000000" stroke="#000000" points="776.0706,-1037.8309 772.5705,-1027.8309 769.0706,-1037.831 776.0706,-1037.8309"/>
+</g>
+<!-- ant_3_1 -->
+<g id="node15" class="node">
+<title>ant_3_1</title>
+<ellipse fill="none" stroke="#000000" cx="1182" cy="-1162.6" rx="42.299" ry="18"/>
+<text text-anchor="middle" x="1182" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">ant_3_1</text>
+</g>
+<!-- wifi_rx3 -->
+<g id="node19" class="node">
+<title>wifi_rx3</title>
+<ellipse fill="none" stroke="#000000" cx="1224" cy="-1013" rx="44.0814" ry="18"/>
+<text text-anchor="middle" x="1224" y="-1008.8" font-family="Times,serif" font-size="14.00" fill="#000000">wifi_rx3</text>
+</g>
+<!-- ant_3_1&#45;&gt;wifi_rx3 -->
+<g id="edge16" class="edge">
+<title>ant_3_1-&gt;wifi_rx3</title>
+<path fill="none" stroke="#000000" d="M1201.9295,-1146.5902C1201.9295,-1146.5902 1201.9295,-1038.8947 1201.9295,-1038.8947"/>
+<polygon fill="#000000" stroke="#000000" points="1205.4296,-1038.8947 1201.9295,-1028.8947 1198.4296,-1038.8947 1205.4296,-1038.8947"/>
+</g>
+<!-- ant_3_2 -->
+<g id="node16" class="node">
+<title>ant_3_2</title>
+<ellipse fill="none" stroke="#000000" cx="1284" cy="-1162.6" rx="42.299" ry="18"/>
+<text text-anchor="middle" x="1284" y="-1158.4" font-family="Times,serif" font-size="14.00" fill="#000000">ant_3_2</text>
+</g>
+<!-- ant_3_2&#45;&gt;wifi_rx3 -->
+<g id="edge17" class="edge">
+<title>ant_3_2-&gt;wifi_rx3</title>
+<path fill="none" stroke="#000000" d="M1255.0705,-1149.324C1255.0705,-1149.324 1255.0705,-1036.0326 1255.0705,-1036.0326"/>
+<polygon fill="#000000" stroke="#000000" points="1258.5706,-1036.0326 1255.0705,-1026.0326 1251.5706,-1036.0327 1258.5706,-1036.0326"/>
+</g>
+<!-- wfb_rx_1_1 -->
+<g id="node21" class="node">
+<title>wfb_rx_1_1</title>
+<polygon fill="none" stroke="#000000" points="1122.4289,-881.4 1037.5711,-881.4 1037.5711,-845.4 1122.4289,-845.4 1122.4289,-881.4"/>
+<text text-anchor="middle" x="1080" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_rx_1_1</text>
+</g>
+<!-- wifi_rx1&#45;&gt;wfb_rx_1_1 -->
+<g id="edge18" class="edge">
+<title>wifi_rx1-&gt;wfb_rx_1_1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1045.0381,-1002.7174C1045.0381,-1002.7174 1045.0381,-891.4034 1045.0381,-891.4034"/>
+<polygon fill="#000000" stroke="#000000" points="1048.5382,-891.4034 1045.0381,-881.4034 1041.5382,-891.4034 1048.5382,-891.4034"/>
+<text text-anchor="middle" x="1112.6585" y="-945.4" font-family="Times,serif" font-size="14.00" fill="#000000">radio port 1</text>
+</g>
+<!-- wfb_rx_1_2 -->
+<g id="node22" class="node">
+<title>wfb_rx_1_2</title>
+<polygon fill="none" stroke="#000000" points="1020.4289,-881.4 935.5711,-881.4 935.5711,-845.4 1020.4289,-845.4 1020.4289,-881.4"/>
+<text text-anchor="middle" x="978" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_rx_1_2</text>
+</g>
+<!-- wifi_rx1&#45;&gt;wfb_rx_1_2 -->
+<g id="edge19" class="edge">
+<title>wifi_rx1-&gt;wfb_rx_1_2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M991.9619,-996.1298C991.9619,-996.1298 991.9619,-891.8411 991.9619,-891.8411"/>
+<polygon fill="#000000" stroke="#000000" points="995.462,-891.8411 991.9619,-881.8411 988.462,-891.8412 995.462,-891.8411"/>
+<text text-anchor="middle" x="1010.6585" y="-945.4" font-family="Times,serif" font-size="14.00" fill="#000000">radio port 2</text>
+</g>
+<!-- wfb_rx_2_1 -->
+<g id="node24" class="node">
+<title>wfb_rx_2_1</title>
+<polygon fill="none" stroke="#000000" points="838.4289,-881.4 753.5711,-881.4 753.5711,-845.4 838.4289,-845.4 838.4289,-881.4"/>
+<text text-anchor="middle" x="796" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_rx_2_1</text>
+</g>
+<!-- wifi_rx2&#45;&gt;wfb_rx_2_1 -->
+<g id="edge20" class="edge">
+<title>wifi_rx2-&gt;wfb_rx_2_1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M772.0381,-998.3833C772.0381,-998.3833 772.0381,-891.5395 772.0381,-891.5395"/>
+<polygon fill="#000000" stroke="#000000" points="775.5382,-891.5395 772.0381,-881.5395 768.5382,-891.5396 775.5382,-891.5395"/>
+<text text-anchor="middle" x="828.6585" y="-945.4" font-family="Times,serif" font-size="14.00" fill="#000000">radio port 1</text>
+</g>
+<!-- wfb_rx_2_2 -->
+<g id="node25" class="node">
+<title>wfb_rx_2_2</title>
+<polygon fill="none" stroke="#000000" points="736.4289,-881.4 651.5711,-881.4 651.5711,-845.4 736.4289,-845.4 736.4289,-881.4"/>
+<text text-anchor="middle" x="694" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_rx_2_2</text>
+</g>
+<!-- wifi_rx2&#45;&gt;wfb_rx_2_2 -->
+<g id="edge21" class="edge">
+<title>wifi_rx2-&gt;wfb_rx_2_2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M718.9619,-998.6557C718.9619,-998.6557 718.9619,-891.62 718.9619,-891.62"/>
+<polygon fill="#000000" stroke="#000000" points="722.462,-891.62 718.9619,-881.62 715.462,-891.62 722.462,-891.62"/>
+<text text-anchor="middle" x="727.6585" y="-945.4" font-family="Times,serif" font-size="14.00" fill="#000000">radio port 2</text>
+</g>
+<!-- wfb_rx_3_1 -->
+<g id="node27" class="node">
+<title>wfb_rx_3_1</title>
+<polygon fill="none" stroke="#000000" points="1332.4289,-881.4 1247.5711,-881.4 1247.5711,-845.4 1332.4289,-845.4 1332.4289,-881.4"/>
+<text text-anchor="middle" x="1290" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_rx_3_1</text>
+</g>
+<!-- wifi_rx3&#45;&gt;wfb_rx_3_1 -->
+<g id="edge22" class="edge">
+<title>wifi_rx3-&gt;wfb_rx_3_1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1258.0381,-1001.2611C1258.0381,-1001.2611 1258.0381,-891.436 1258.0381,-891.436"/>
+<polygon fill="#000000" stroke="#000000" points="1261.5382,-891.4359 1258.0381,-881.436 1254.5382,-891.436 1261.5382,-891.4359"/>
+<text text-anchor="middle" x="1321.6585" y="-945.4" font-family="Times,serif" font-size="14.00" fill="#000000">radio port 1</text>
+</g>
+<!-- wfb_rx_3_2 -->
+<g id="node28" class="node">
+<title>wfb_rx_3_2</title>
+<polygon fill="none" stroke="#000000" points="1230.4289,-881.4 1145.5711,-881.4 1145.5711,-845.4 1230.4289,-845.4 1230.4289,-881.4"/>
+<text text-anchor="middle" x="1188" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_rx_3_2</text>
+</g>
+<!-- wifi_rx3&#45;&gt;wfb_rx_3_2 -->
+<g id="edge23" class="edge">
+<title>wifi_rx3-&gt;wfb_rx_3_2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1204.9619,-996.7054C1204.9619,-996.7054 1204.9619,-891.5314 1204.9619,-891.5314"/>
+<polygon fill="#000000" stroke="#000000" points="1208.462,-891.5313 1204.9619,-881.5314 1201.462,-891.5314 1208.462,-891.5313"/>
+<text text-anchor="middle" x="1220.6585" y="-945.4" font-family="Times,serif" font-size="14.00" fill="#000000">radio port 2</text>
+</g>
+<!-- eth_rx1 -->
+<g id="node20" class="node">
+<title>eth_rx1</title>
+<ellipse fill="none" stroke="#000000" cx="890" cy="-863.4" rx="27.8286" ry="18"/>
+<text text-anchor="middle" x="890" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">eth0</text>
+</g>
+<!-- ethernet_switch -->
+<g id="node36" class="node">
+<title>ethernet_switch</title>
+<ellipse fill="none" stroke="#000000" cx="882" cy="-531.4" rx="36.4936" ry="18"/>
+<text text-anchor="middle" x="882" y="-527.2" font-family="Times,serif" font-size="14.00" fill="#000000">switch</text>
+</g>
+<!-- eth_rx1&#45;&gt;ethernet_switch -->
+<g id="edge31" class="edge">
+<title>eth_rx1-&gt;ethernet_switch</title>
+<path fill="none" stroke="#000000" d="M881.5888,-836.0177C881.5888,-836.0177 881.5888,-559.4154 881.5888,-559.4154"/>
+<polygon fill="#000000" stroke="#000000" points="885.0888,-559.4154 881.5888,-549.4154 878.0888,-559.4154 885.0888,-559.4154"/>
+<polygon fill="#000000" stroke="#000000" points="878.0888,-836.0177 881.5888,-846.0177 885.0888,-836.0177 878.0888,-836.0177"/>
+</g>
+<!-- wfb_agg1 -->
+<g id="node33" class="node">
+<title>wfb_agg1</title>
+<polygon fill="none" stroke="#000000" points="1256.9818,-731.8 1185.0182,-731.8 1185.0182,-695.8 1256.9818,-695.8 1256.9818,-731.8"/>
+<text text-anchor="middle" x="1221" y="-709.6" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_agg1</text>
+</g>
+<!-- wfb_rx_1_1&#45;&gt;wfb_agg1 -->
+<g id="edge25" class="edge">
+<title>wfb_rx_1_1-&gt;wfb_agg1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1115.4127,-845.1208C1115.4127,-834.0304 1115.4127,-822 1115.4127,-822 1115.4127,-822 1215.1456,-822 1215.1456,-822 1215.1456,-822 1215.1456,-742.1547 1215.1456,-742.1547"/>
+<polygon fill="#000000" stroke="#000000" points="1218.6457,-742.1546 1215.1456,-732.1547 1211.6457,-742.1547 1218.6457,-742.1546"/>
+<text text-anchor="middle" x="1109.7479" y="-795.8" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 5601</text>
+</g>
+<!-- wfb_agg2 -->
+<g id="node34" class="node">
+<title>wfb_agg2</title>
+<polygon fill="none" stroke="#000000" points="1166.9818,-731.8 1095.0182,-731.8 1095.0182,-695.8 1166.9818,-695.8 1166.9818,-731.8"/>
+<text text-anchor="middle" x="1131" y="-709.6" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_agg2</text>
+</g>
+<!-- wfb_rx_1_2&#45;&gt;wfb_agg2 -->
+<g id="edge26" class="edge">
+<title>wfb_rx_1_2-&gt;wfb_agg2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1011.6862,-845.0768C1011.6862,-819.7148 1011.6862,-777 1011.6862,-777 1011.6862,-777 1108.6115,-777 1108.6115,-777 1108.6115,-777 1108.6115,-742.0801 1108.6115,-742.0801"/>
+<polygon fill="#000000" stroke="#000000" points="1112.1116,-742.08 1108.6115,-732.0801 1105.1116,-742.0801 1112.1116,-742.08"/>
+<text text-anchor="middle" x="952.2479" y="-795.8" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 14551</text>
+</g>
+<!-- eth_rx2 -->
+<g id="node23" class="node">
+<title>eth_rx2</title>
+<ellipse fill="none" stroke="#000000" cx="606" cy="-863.4" rx="27.8286" ry="18"/>
+<text text-anchor="middle" x="606" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">eth0</text>
+</g>
+<!-- eth_rx2&#45;&gt;ethernet_switch -->
+<g id="edge32" class="edge">
+<title>eth_rx2-&gt;ethernet_switch</title>
+<path fill="none" stroke="#000000" d="M606,-835.3864C606,-835.3864 606,-537 606,-537 606,-537 837.3239,-537 837.3239,-537"/>
+<polygon fill="#000000" stroke="#000000" points="602.5001,-835.3864 606,-845.3864 609.5001,-835.3864 602.5001,-835.3864"/>
+<polygon fill="#000000" stroke="#000000" points="837.3239,-540.5001 847.3239,-537 837.3238,-533.5001 837.3239,-540.5001"/>
+</g>
+<!-- wfb_rx_2_1&#45;&gt;wfb_agg1 -->
+<g id="edge27" class="edge">
+<title>wfb_rx_2_1-&gt;wfb_agg1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M796,-845.1178C796,-826.0783 796,-799 796,-799 796,-799 1200.0774,-799 1200.0774,-799 1200.0774,-799 1200.0774,-741.8687 1200.0774,-741.8687"/>
+<polygon fill="#000000" stroke="#000000" points="1203.5775,-741.8687 1200.0774,-731.8687 1196.5775,-741.8688 1203.5775,-741.8687"/>
+<text text-anchor="middle" x="833.7479" y="-795.8" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 5601</text>
+</g>
+<!-- wfb_rx_2_2&#45;&gt;wfb_agg2 -->
+<g id="edge28" class="edge">
+<title>wfb_rx_2_2-&gt;wfb_agg2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M694,-845.3348C694,-814.2621 694,-754 694,-754 694,-754 1101.8103,-754 1101.8103,-754 1101.8103,-754 1101.8103,-742.0181 1101.8103,-742.0181"/>
+<polygon fill="#000000" stroke="#000000" points="1105.3104,-742.018 1101.8103,-732.0181 1098.3104,-742.0181 1105.3104,-742.018"/>
+<text text-anchor="middle" x="731.2479" y="-795.8" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 14551</text>
+</g>
+<!-- eth_rx3 -->
+<g id="node26" class="node">
+<title>eth_rx3</title>
+<ellipse fill="none" stroke="#000000" cx="1378" cy="-863.4" rx="27.8286" ry="18"/>
+<text text-anchor="middle" x="1378" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">eth0</text>
+</g>
+<!-- eth_rx3&#45;&gt;ethernet_switch -->
+<g id="edge33" class="edge">
+<title>eth_rx3-&gt;ethernet_switch</title>
+<path fill="none" stroke="#000000" d="M1378,-835.2558C1378,-835.2558 1378,-622 1378,-622 1378,-622 909.5437,-622 909.5437,-622 909.5437,-622 909.5437,-553.2444 909.5437,-553.2444"/>
+<polygon fill="#000000" stroke="#000000" points="1374.5001,-835.2557 1378,-845.2558 1381.5001,-835.2558 1374.5001,-835.2557"/>
+<polygon fill="#000000" stroke="#000000" points="913.0438,-553.2443 909.5437,-543.2444 906.0438,-553.2444 913.0438,-553.2443"/>
+</g>
+<!-- wfb_rx_3_1&#45;&gt;wfb_agg1 -->
+<g id="edge29" class="edge">
+<title>wfb_rx_3_1-&gt;wfb_agg1</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1252.3885,-845.3547C1252.3885,-845.3547 1252.3885,-741.9093 1252.3885,-741.9093"/>
+<polygon fill="#000000" stroke="#000000" points="1255.8886,-741.9092 1252.3885,-731.9093 1248.8886,-741.9093 1255.8886,-741.9092"/>
+<text text-anchor="middle" x="1306.7479" y="-795.8" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 5601</text>
+</g>
+<!-- wfb_rx_3_2&#45;&gt;wfb_agg2 -->
+<g id="edge30" class="edge">
+<title>wfb_rx_3_2-&gt;wfb_agg2</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1156.3885,-845.3547C1156.3885,-845.3547 1156.3885,-741.9093 1156.3885,-741.9093"/>
+<polygon fill="#000000" stroke="#000000" points="1159.8886,-741.9092 1156.3885,-731.9093 1152.8886,-741.9093 1159.8886,-741.9092"/>
+<text text-anchor="middle" x="1208.2479" y="-795.8" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 14551</text>
+</g>
+<!-- sik_radio2 -->
+<g id="node29" class="node">
+<title>sik_radio2</title>
+<ellipse fill="none" stroke="#000000" cx="505" cy="-1013" rx="51.5658" ry="18"/>
+<text text-anchor="middle" x="505" y="-1008.8" font-family="Times,serif" font-size="14.00" fill="#000000">3DR radio</text>
+</g>
+<!-- mavproxy2 -->
+<g id="node31" class="node">
+<title>mavproxy2</title>
+<polygon fill="none" stroke="#000000" points="554.313,-881.4 455.687,-881.4 455.687,-845.4 554.313,-845.4 554.313,-881.4"/>
+<text text-anchor="middle" x="505" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">mavlink router</text>
+</g>
+<!-- sik_radio2&#45;&gt;mavproxy2 -->
+<g id="edge24" class="edge">
+<title>sik_radio2-&gt;mavproxy2</title>
+<path fill="none" stroke="#000000" d="M505,-994.9547C505,-994.9547 505,-891.5093 505,-891.5093"/>
+<polygon fill="#000000" stroke="#000000" points="508.5001,-891.5092 505,-881.5093 501.5001,-891.5093 508.5001,-891.5092"/>
+</g>
+<!-- eth_rx4 -->
+<g id="node30" class="node">
+<title>eth_rx4</title>
+<ellipse fill="none" stroke="#000000" cx="410" cy="-863.4" rx="27.8286" ry="18"/>
+<text text-anchor="middle" x="410" y="-859.2" font-family="Times,serif" font-size="14.00" fill="#000000">eth0</text>
+</g>
+<!-- eth_rx4&#45;&gt;ethernet_switch -->
+<g id="edge34" class="edge">
+<title>eth_rx4-&gt;ethernet_switch</title>
+<path fill="none" stroke="#000000" d="M410,-835.2061C410,-835.2061 410,-525 410,-525 410,-525 838.0549,-525 838.0549,-525"/>
+<polygon fill="#000000" stroke="#000000" points="406.5001,-835.2061 410,-845.2061 413.5001,-835.2062 406.5001,-835.2061"/>
+<polygon fill="#000000" stroke="#000000" points="838.055,-528.5001 848.0549,-525 838.0549,-521.5001 838.055,-528.5001"/>
+</g>
+<!-- qgroundcontrol -->
+<g id="node35" class="node">
+<title>qgroundcontrol</title>
+<polygon fill="none" stroke="#000000" points="1003.3175,-731.8 900.6825,-731.8 900.6825,-695.8 1003.3175,-695.8 1003.3175,-731.8"/>
+<text text-anchor="middle" x="952" y="-709.6" font-family="Times,serif" font-size="14.00" fill="#000000">qgroundcontrol</text>
+</g>
+<!-- mavproxy2&#45;&gt;qgroundcontrol -->
+<g id="edge39" class="edge">
+<title>mavproxy2-&gt;qgroundcontrol</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M505,-845.2582C505,-805.2564 505,-713 505,-713 505,-713 890.7234,-713 890.7234,-713"/>
+<polygon fill="#000000" stroke="#000000" points="890.7235,-716.5001 900.7234,-713 890.7234,-709.5001 890.7235,-716.5001"/>
+</g>
+<!-- eth_linux -->
+<g id="node32" class="node">
+<title>eth_linux</title>
+<ellipse fill="none" stroke="#000000" cx="1049" cy="-713.8" rx="27.8286" ry="18"/>
+<text text-anchor="middle" x="1049" y="-709.6" font-family="Times,serif" font-size="14.00" fill="#000000">eth0</text>
+</g>
+<!-- eth_linux&#45;&gt;ethernet_switch -->
+<g id="edge35" class="edge">
+<title>eth_linux-&gt;ethernet_switch</title>
+<path fill="none" stroke="#000000" d="M1049,-685.6041C1049,-685.6041 1049,-531 1049,-531 1049,-531 928.6489,-531 928.6489,-531"/>
+<polygon fill="#000000" stroke="#000000" points="1045.5001,-685.6041 1049,-695.6041 1052.5001,-685.6042 1045.5001,-685.6041"/>
+<polygon fill="#000000" stroke="#000000" points="928.6489,-527.5001 918.6489,-531 928.6488,-534.5001 928.6489,-527.5001"/>
+</g>
+<!-- gstreamer_fpv -->
+<g id="node38" class="node">
+<title>gstreamer_fpv</title>
+<polygon fill="none" stroke="#000000" points="1325.3515,-549.4 1228.6485,-549.4 1228.6485,-513.4 1325.3515,-513.4 1325.3515,-549.4"/>
+<text text-anchor="middle" x="1277" y="-527.2" font-family="Times,serif" font-size="14.00" fill="#000000">gstreamer_fpv</text>
+</g>
+<!-- wfb_agg1&#45;&gt;gstreamer_fpv -->
+<g id="edge36" class="edge">
+<title>wfb_agg1-&gt;gstreamer_fpv</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1242.7826,-695.6439C1242.7826,-695.6439 1242.7826,-559.4826 1242.7826,-559.4826"/>
+<polygon fill="#000000" stroke="#000000" points="1246.2827,-559.4826 1242.7826,-549.4826 1239.2827,-559.4827 1246.2827,-559.4826"/>
+<text text-anchor="middle" x="1306.7479" y="-646.2" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 5600</text>
+</g>
+<!-- wfb_osd -->
+<g id="node37" class="node">
+<title>wfb_osd</title>
+<polygon fill="none" stroke="#000000" points="1210.2122,-549.4 1145.7878,-549.4 1145.7878,-513.4 1210.2122,-513.4 1210.2122,-549.4"/>
+<text text-anchor="middle" x="1178" y="-527.2" font-family="Times,serif" font-size="14.00" fill="#000000">wfb_osd</text>
+</g>
+<!-- wfb_agg2&#45;&gt;wfb_osd -->
+<g id="edge37" class="edge">
+<title>wfb_agg2-&gt;wfb_osd</title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M1152.9264,-695.6439C1152.9264,-695.6439 1152.9264,-559.4826 1152.9264,-559.4826"/>
+<polygon fill="#000000" stroke="#000000" points="1156.4265,-559.4826 1152.9264,-549.4826 1149.4265,-559.4827 1156.4265,-559.4826"/>
+<text text-anchor="middle" x="1127.2479" y="-646.2" font-family="Times,serif" font-size="14.00" fill="#000000">UDP 14550</text>
+</g>
+<!-- wfb_agg2&#45;&gt;wfb_osd -->
+<g id="edge38" class="edge">
+<title>wfb_agg2-&gt;wfb_osd</title>
+<path fill="none" stroke="#000000" d="M1159.9586,-687.8009C1159.9586,-669.682 1159.9586,-624.0479 1159.9586,-592.395"/>
+<polygon fill="#000000" stroke="#000000" points="1163.4587,-592.1963 1159.9586,-582.1963 1156.4587,-592.1963 1163.4587,-592.1963"/>
+<text text-anchor="middle" x="1209.6129" y="-646.2" font-family="Times,serif" font-size="14.00" fill="#000000">USB</text>
+</g>
+<!-- video_display -->
+<g id="node39" class="node">
+<title>video_display</title>
+<ellipse fill="none" stroke="#000000" cx="1179" cy="-277.8" rx="41.149" ry="18"/>
+<text text-anchor="middle" x="1179" y="-273.6" font-family="Times,serif" font-size="14.00" fill="#000000">Display</text>
+</g>
+<!-- wfb_osd&#45;&gt;video_display -->
+<g id="edge40" class="edge">
+<title>wfb_osd-&gt;video_display</title>
+<path fill="none" stroke="#000000" d="M1178,-505.4024C1178,-467.7492 1178,-305.873 1178,-305.873"/>
+<polygon fill="#000000" stroke="#000000" points="1181.5001,-305.873 1178,-295.873 1174.5001,-305.8731 1181.5001,-305.873"/>
+<text text-anchor="middle" x="1216.0961" y="-400.4" font-family="Times,serif" font-size="14.00" fill="#000000">HDMI or AV</text>
+</g>
+</g>
+</svg>

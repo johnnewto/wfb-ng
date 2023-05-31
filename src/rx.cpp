@@ -705,7 +705,7 @@ void Aggregator::send_packet(int ring_idx, int fragment_idx)
         count_p_bad += 1;
     }else if(!(flags & WFB_PACKET_FEC_ONLY))
     {
-        send(sockfd, payload, packet_size, MSG_DONTWAIT);
+        send(sockfd, payload, packet_size, MSG_DONTWAIT);    // JN ToDo This is where UDP is sent from
     }
 }
 

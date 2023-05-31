@@ -320,6 +320,9 @@ def init(profile, wlans):
 
 def init_mavlink(profile, wlans, link_id):
     cfg = getattr(settings, '%s_mavlink' % (profile,))
+    if not cfg.enable:    # JN: for debugging
+        return  # skip
+
 
     cmd_rx = ('%s -p %d -u %d -K %s -i %d' % \
               (os.path.join(settings.path.bin_dir, 'wfb_rx'), cfg.stream_rx,
@@ -431,6 +434,8 @@ def init_mavlink(profile, wlans, link_id):
 
 def init_video(profile, wlans, link_id):
     cfg = getattr(settings, '%s_video' % (profile,))
+    if not cfg.enable:    # JN: for debugging
+        return  # skip
 
     if listen_re.match(cfg.peer):
         m = listen_re.match(cfg.peer)
@@ -469,6 +474,8 @@ def init_video(profile, wlans, link_id):
 
 def init_tunnel(profile, wlans, link_id):
     cfg = getattr(settings, '%s_tunnel' % (profile,))
+    if not cfg.enable:   # JN: for debugging
+        return  # skip
 
     cmd_rx = ('%s -p %d -u %d -K %s -i %d' % \
               (os.path.join(settings.path.bin_dir, 'wfb_rx'), cfg.stream_rx,
