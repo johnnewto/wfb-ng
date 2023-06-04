@@ -110,6 +110,19 @@ wifi_channel = 161     # 161 -- radio channel @5825 MHz, range: 5815–5835 MHz,
 ```
 Ensure the WiFi channel selected is the same on the ground and on the drone.
 
+## JN Additions
+To run the  Ground Station
+```
+wfb-gs.sh
+```
+To run the  Ground Station drone end
+```
+wfb-drone.sh
+```
+To run test gstreamer source and sink throught the UDP channel
+```
+wfb-test-gst.sh
+```
 ## Support project
 If you like WFB-ng you can make a donation to `bitcoin:bc1qfvlsvr0ea7tzzydngq5cflf4yypemlacgt6t05`
 

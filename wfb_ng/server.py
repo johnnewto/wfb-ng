@@ -534,7 +534,8 @@ def main():
         log.theLogPublisher._startLogging(obs.emit, False)
 
 
-    log.msg('WFB version %s-%s' % (settings.common.version, settings.common.commit[:8]))
+    # log.msg('WFB version %s-%s' % (settings.common.version, settings.common.commit[:8]))  jn todo commit does not exist anymore
+    log.msg('WFB version %s' % (settings.common.version))
     profile, wlans = sys.argv[1], list(wlan for arg in sys.argv[2:] for wlan in arg.split())
     uname = os.uname()
     log.msg('Run on %s/%s @%s, profile %s using %s' % (uname[4], uname[2], uname[1], profile, ', '.join(wlans)))
